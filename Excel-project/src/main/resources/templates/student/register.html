@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>login page</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+<span>${msg}</span>
+	<div class="container">
+		
+		<div class="panel panel-primary">
+		  <div class="panel panel-heading">
+		  		<div class="row">
+		  			<h3>Welcome to Registration</h3>
+		  		</div>
+				
+		  </div>
+		  <div class="panel panel-body">
+		  <form action="/stars" method="post">
+			<div class="row">
+				<div class="col-md-3">ID</div><div class="col-md-9"><input type="text" name="id"/></div>
+			</div>
+			<div class="row">
+				<div class="col-md-3">SNAME</div><div class="col-md-9"><input type="text" name="studentName"/></div>
+			</div>
+			<div class="row">
+				<div class="col-md-3">EMAIL</div><div class="col-md-9"><input type="text" name="email"/></div>
+			</div>
+			<div class="row">
+				<div class="col-md-3">PHONE</div><div class="col-md-9"><input type="text" name="mobileNo"/></div>
+			</div>
+			
+			<button type="submit">Registration</button>
+			</form>
+			</div>
+		  
+		</div>
+	</div>
+</body>
+</html>

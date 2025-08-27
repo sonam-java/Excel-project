@@ -28,6 +28,7 @@ public class StudentController {
 
 	@Autowired
 	StudentService studentService;
+	//student service is great and fine for future.
 	
 	@GetMapping("/students")
 	public String getAll(Model model) {
